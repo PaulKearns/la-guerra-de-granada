@@ -2521,3 +2521,9 @@ blockquote {
     color: black;
     text-shadow: 1px 1px 0 white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white;
 }
+
+@media only screen and (max-width: 600px) {
+    .big-screen-only {
+        display: none
+    }
+}
